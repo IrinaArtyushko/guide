@@ -1,0 +1,29 @@
+site_name: Google Docs guide
+
+nav:
+  - Google Docs overview: index.md
+  - Google Docs tasks:
+    - Create documents: google_docs_tasks/create_documents.md
+    - Manage access: google_docs_tasks/managing_access.md
+    - Manage settings: google_docs_tasks/manage_the_page_settings.md
+    - Format texts: google_docs_tasks/format_texts.md
+    - Insert different types of content: google_docs_tasks/insert_different_types_of_content.md    
+    - Manage add-ons: google_docs_tasks/manage_add-ons.md    
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+
+
+theme:
+  name: material
+  palette:
+    primary: cyan
+  features:
+    - navigation.instant
+    - navigation.sections
+  logo: assets/logo.png
